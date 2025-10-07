@@ -35,15 +35,12 @@ function Services() {
       className="min-h-screen bg-gray-800 text-white py-20 px-6"
       data-aos="fade-up"
     >
-      {/* JUDUL */}
       <h2
         className="text-4xl font-bold text-center mb-12 text-cyan-400 drop-shadow-[0_0_15px_rgba(34,211,238,0.5)]"
         data-aos="fade-down"
       >
         Services
       </h2>
-
-      {/* GRID SERVICES */}
       <div className="grid md:grid-cols-3 gap-10 max-w-6xl mx-auto">
         {services.map((service, index) => (
           <div

@@ -13,7 +13,7 @@ function Skills() {
     });
 
     const timer = setTimeout(() => {
-      setProgress([100, 97, 93, 80, 78, 80, 75, 70, 60, 70]);
+      setProgress([100, 97, 93, 80, 78, 80, 75, 70, 60, 70, 80, 45]);
     }, 500);
 
     return () => clearTimeout(timer);
@@ -30,6 +30,8 @@ function Skills() {
     { name: "React-Native", img: "images/Icon_ReactNative.png" },
     { name: "Dart", img: "images/Icon_Dart.png"},
     { name: "Bootstrap", img: "images/Icon_Bootstrap.png"},
+    { name: "Python", img: "images/Icon_Python.png"},
+    { name: "PHP", img: "images/Icon_Php.png"},
   ];
 
   return (

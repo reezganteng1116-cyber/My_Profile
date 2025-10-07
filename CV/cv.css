@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0f172a;
+      color: #e2e8f0;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background-color: #1e293b;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.2);
+    }
+
+    .profile {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .profile img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      border: 3px solid #38bdf8;
+      box-shadow: 0 0 20px rgba(56, 189, 248, 0.5);
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .typing {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #38bdf8;
+      text-shadow: 0 0 10px #0ea5e9;
+      white-space: nowrap;
+      overflow: hidden;
+      border-right: 3px solid #38bdf8;
+      width: 0;
+      margin: 0 auto;
+      animation: typing 4s steps(30, end) infinite alternate,
+                 blink 0.7s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 100%; }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent; }
+    }
+
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+      color: #38bdf8;
+      text-shadow: 0 0 10px #0ea5e9;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .contact a {
+      color: #38bdf8;
+      text-decoration: none;
+      margin: 0 10px;
+      transition: 0.3s;
+    }
+
+    .contact a:hover {
+      color: #0ea5e9;
+      text-shadow: 0 0 8px #38bdf8;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .section h2 {
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      color: #38bdf8;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li::before {
+      content: "▹";
+      color: #38bdf8;
+      margin-right: 8px;
+    }
+
+    .skills span {
+      display: inline-block;
+      background-color: #0ea5e9;
+      color: white;
+      padding: 6px 12px;
+      margin: 5px;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      transition: 0.3s;
+    }
+
+    .skills span:hover {
+      background-color: #0284c7;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+        margin: 20px;
+      }
+      .typing {
+        font-size: 1.4rem;
+      }
+    }

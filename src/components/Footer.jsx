@@ -16,7 +16,6 @@ function Footer() {
       className="bg-gray-950 text-gray-400 py-6 text-center border-t border-gray-800 relative overflow-hidden"
       data-aos="fade-up"
     >
-      {/* Glow cyan lembut di bawah footer */}
       <div className="absolute inset-x-0 bottom-0 h-[2px] bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent animate-pulse"></div>
 
       <p className="text-sm md:text-base">
@@ -26,8 +25,6 @@ function Footer() {
         </span>
         . All rights reserved.
       </p>
-
-      {/* animasi garis kecil di hover */}
       <div className="flex justify-center mt-2">
         <span className="block w-8 h-[1px] bg-cyan-400/40 hover:w-16 transition-all duration-500"></span>
       </div>
