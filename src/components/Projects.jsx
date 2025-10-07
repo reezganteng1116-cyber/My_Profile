@@ -14,19 +14,19 @@ function Projects() {
   const projects = [
     {
       title: "Portfolio Website",
-      img: "public/images/project_1.jpeg",
+      img: "images/project_1.jpeg",
       link: " https://reezganteng1116-cyber.github.io/portofolio/",
       sneakPeak: "Ini adalah contoh landing page portofolio waktu pertama kali saya belajar menggunakan HTML dan CSS sederhana",
     },
     {
       title: "E-commerce App",
-      img: "public/images/project_2.jpeg",
+      img: "images/project_2.jpeg",
       link: "https://www.canva.com/design/DAG0u3oxbr4/JNlYdl5CT-3DJTAzekpjZw/edit?utm_content=DAG0u3oxbr4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
       sneakPeak: "Ini adalah project mobile app yang sedang saya kembangkan, dengan menggunakan teknology Expo dan React Native, saya targetkan tahun depan sudah rilis di playstore",
     },
     {
       title: "Chat Application",
-      img: "public/images/project_3.jpeg",
+      img: "images/project_3.jpeg",
       link: "http://127.0.0.1:5500/index.html",
       sneakPeak: "Ini adalah project database menggunakan teknology JavaScript dan Python, dan menggunakan fitur AI lebah sederhana",
     },

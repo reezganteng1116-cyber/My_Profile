@@ -23,7 +23,7 @@ function About() {
         data-aos-delay="200"
       >
         <img
-          src="../../public/images/gw-1.jpg"
+          src="images/gw-1.jpg"
           alt="Profile"
           className="w-60 h-60 object-cover rounded-full border-4 border-cyan-400 shadow-[0_0_25px_rgba(34,211,238,0.5)] hover:scale-105 transition-transform duration-500"
         />
