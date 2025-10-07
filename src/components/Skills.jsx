@@ -27,9 +27,7 @@ function Skills() {
     { name: "Tailwind", img: "images/Icon_Tailwind.png" },
     { name: "Node.js", img: "/images/Icon_NodeJS.png" },
     { name: "Vite", img: "/images/Icon_Vite.png" },
-    { name: "React-Native", img: "/images/Icon_ReactNative.png" },
-    { name: "Dart", img: "/images/Icon_Dart.png" },
-    { name: "Bootstrap", img: "/images/Icon_Bootstrap.png" },
+    { name: "React-Native", img: "/images/Icon_ReactNative.png" }
   ];
 
   return (
