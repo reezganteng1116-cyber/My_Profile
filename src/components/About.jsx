@@ -65,7 +65,7 @@ function About() {
           data-aos-delay="600"
         >
           <a
-            href="/pages/cv.html"
+            href="https://reezganteng1116-cyber.github.io/CV/"
             className="px-6 py-3 bg-cyan-400 text-gray-900 font-semibold rounded-lg hover:bg-cyan-300 hover:shadow-[0_0_20px_rgba(34,211,238,0.7)] transition-all duration-300"
           >
             View My CV
